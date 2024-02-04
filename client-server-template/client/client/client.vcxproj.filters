@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Client">
+      <UniqueIdentifier>{ead15d83-70d3-4db7-9fd0-c1027156b2a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Client\client">
+      <UniqueIdentifier>{f88aa3eb-fd89-40f9-9c6e-acc37ef6325c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Client\core">
+      <UniqueIdentifier>{47f1060f-7c2c-4f73-b68d-07efc363fa4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Client\context">
+      <UniqueIdentifier>{6dd072a2-1b44-4606-96f2-9c27b24cdffc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="client_core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>Header Files\Client\client</Filter>
+    </ClCompile>
+    <ClCompile Include="core.cpp">
+      <Filter>Header Files\Client\core</Filter>
+    </ClCompile>
+    <ClCompile Include="context.cpp">
+      <Filter>Header Files\Client\context</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="client.h">
+      <Filter>Header Files\Client\client</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>Header Files\Client\core</Filter>
+    </ClInclude>
+    <ClInclude Include="context.h">
+      <Filter>Header Files\Client\context</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
